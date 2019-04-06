@@ -1,0 +1,19 @@
+server:
+  port: 8084
+spring:
+  datasource:
+    url: "jdbc:postgresql://localhost:5432/patient_profile"
+    username: "postgres"
+    password: "steaua"
+    driver-class-name: "org.postgresql.Driver"
+  jpa:
+    hibernate:
+      ddl-auto: "update"
+    show-sql: "true"
+    properties:
+      hibernate:
+        format_sql: "true"
+security:
+  oauth2:
+    resource:
+      user-info-uri: "http://localhost:8282/user"
