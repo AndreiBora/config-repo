@@ -1,6 +1,9 @@
 server:
   port: 5555
 
+zuul:
+  sensitiveHeaders: Cookie,Set-Cookie
+
 eureka:
   instance:
     preferIpAddress: true
