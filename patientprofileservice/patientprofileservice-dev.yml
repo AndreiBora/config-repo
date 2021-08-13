@@ -2,4 +2,4 @@ server:
   port: 8083
 
 say:
-  hello: 'World'
+  hello: 'World !!!'
